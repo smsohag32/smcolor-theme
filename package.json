@@ -1,0 +1,30 @@
+{
+   "name": "smcolor-theme",
+   "displayName": "smcolor theme",
+   "description": "A modern VS Code color theme with carefully balanced syntax highlighting for maximum contrast and visual clarity.",
+   "version": "1.0.0",
+   "publisher": "smcolorthemesohagsheik",
+   "license": "MIT",
+   "repository": "https://github.com/sohag/smcolor-theme",
+   "icon": "images/icon-128.svg",
+   "engines": {
+      "vscode": "*"
+   },
+   "categories": [
+      "Themes"
+   ],
+   "contributes": {
+      "themes": [
+         {
+            "label": "SMcolor Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/SMcolor Theme-color-theme.json"
+         },
+         {
+            "label": "SM Special",
+            "uiTheme": "vs-dark",
+            "path": "./themes/SM Special-color-theme.json"
+         }
+      ]
+   }
+}
