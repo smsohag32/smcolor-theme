@@ -5,7 +5,10 @@
    "version": "1.0.0",
    "publisher": "smcolorthemesohagsheik",
    "license": "MIT",
-   "repository": "https://github.com/sohag/smcolor-theme",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/smsohag32/smcolor-theme.git"
+   },
    "icon": "images/icon-128.svg",
    "engines": {
       "vscode": "*"
