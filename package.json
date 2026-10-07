@@ -9,7 +9,7 @@
       "type": "git",
       "url": "https://github.com/smsohag32/smcolor-theme.git"
    },
-   "icon": "images/icon-128.svg",
+   "icon": "images/icon-128.png",
    "engines": {
       "vscode": "*"
    },
