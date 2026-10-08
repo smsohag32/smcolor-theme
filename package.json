@@ -1,6 +1,6 @@
 {
-   "name": "smcolor-theme",
-   "displayName": "smcolor theme",
+   "name": "stackmint-theme",
+   "displayName": "StackMint Theme",
    "description": "A modern VS Code color theme with carefully balanced syntax highlighting for maximum contrast and visual clarity.",
    "version": "1.0.0",
    "publisher": "smcolorthemesohagsheik",
@@ -19,14 +19,14 @@
    "contributes": {
       "themes": [
          {
-            "label": "SMcolor Theme",
+            "label": "StackMint Theme",
             "uiTheme": "vs-dark",
-            "path": "./themes/SMcolor Theme-color-theme.json"
+            "path": "./themes/StackMint Theme-color-theme.json"
          },
          {
-            "label": "SM Special",
+            "label": "StackMint Special",
             "uiTheme": "vs-dark",
-            "path": "./themes/SM Special-color-theme.json"
+            "path": "./themes/StackMint Special-color-theme.json"
          }
       ]
    }

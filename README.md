@@ -1,140 +1,103 @@
-# 🎨 SM Color Theme
+# 🍃 StackMint Theme
 
-A clean and modern **Visual Studio Code color theme** designed to provide a comfortable and enjoyable coding experience.
+A clean, vibrant, and modern **Visual Studio Code color theme** designed to provide a comfortable and enjoyable coding experience with balanced syntax highlighting and high contrast visual clarity.
 
-[![Open VSX](https://img.shields.io/open-vsx/v/smcolorthemesohagsheik/smcolor-theme?label=Open%20VSX)](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)
-[![Downloads](https://img.shields.io/open-vsx/dt/smcolorthemesohagsheik/smcolor-theme?label=Downloads)](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)
+[![Open VSX](https://img.shields.io/open-vsx/v/smcolorthemesohagsheik/stackmint-theme?label=Open%20VSX)](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)
+[![Downloads](https://img.shields.io/open-vsx/dt/smcolorthemesohagsheik/stackmint-theme?label=Downloads)](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)
+
+---
 
 ## ✨ Features
 
-- 🎨 Carefully selected colors for a pleasant coding experience
-- 🌙 Designed for comfortable use during long coding sessions
-- 💻 Syntax highlighting for popular programming languages
-- 🧩 Works with Visual Studio Code and compatible editors
-- ⚡ Lightweight and easy to use
-- 🔧 Suitable for everyday development
+- 🎨 **StackMint Theme**: Primary dark theme crafted with carefully selected color palettes for maximum clarity.
+- ⚡ **StackMint Special**: High-contrast dark theme variant with vivid editor accents and highlighted selections.
+- 🌙 **Eye Comfort**: Optimized to reduce eye strain during extended coding sessions.
+- 💻 **Rich Syntax Highlighting**: Tuned for JavaScript, TypeScript, Python, HTML, CSS, C++, Go, Rust, JSON, Markdown, and more.
+- 🧩 **VS Code & Compatible Editors**: Works seamlessly with Visual Studio Code, VSCodium, and Open VSX compatible editors.
+
+---
+
+## 📦 Download Versions (.vsix Releases)
+
+All packaged extension versions are organized inside the [`releases/`](./releases/) directory. You can download and install any version directly:
+
+| Version | Release Package | Download Link | Notes |
+| :--- | :--- | :--- | :--- |
+| **`v1.0.0`** *(Latest)* | `stackmint-theme-1.0.0.vsix` | ⬇️ **[Download v1.0.0](./releases/stackmint-theme-1.0.0.vsix)** | Official 1.0.0 release with **StackMint Theme** & **StackMint Special** |
+| `v0.0.3` | `stackmint-theme-0.0.3.vsix` | ⬇️ **[Download v0.0.3](./releases/stackmint-theme-0.0.3.vsix)** | Pre-release version 0.0.3 |
+| `v0.0.2` | `stackmint-theme-0.0.2.vsix` | ⬇️ **[Download v0.0.2](./releases/stackmint-theme-0.0.2.vsix)** | Pre-release version 0.0.2 |
+
+### 🛠️ Installing from a `.vsix` File
+
+1. Download the desired `.vsix` file from the table above (or browse the [`releases/`](./releases/) folder).
+2. Open **Visual Studio Code**.
+3. Open the **Extensions** panel:
+   - **Windows / Linux:** `Ctrl + Shift + X`
+   - **macOS:** `Cmd + Shift + X`
+4. Click the **`...` (More Actions)** menu at the top-right corner of the Extensions view.
+5. Click **Install from VSIX...**
+6. Select the downloaded `.vsix` file (e.g. `stackmint-theme-1.0.0.vsix`).
+
+---
 
 ## 📸 Preview
 
-Add screenshots of the theme here:
-
 ```md
-![SM Color Theme Preview](./images/preview.png)
+![StackMint Theme Preview](./images/preview.png)
 ```
 
-> 💡 Tip: Create an `images` folder in your repository and place your theme screenshots inside it.
-
-## 📦 Installation
-
-### Visual Studio Code
-
-1. Open **Visual Studio Code**
-2. Open the Extensions view:
-   - **Windows/Linux:** `Ctrl + Shift + X`
-   - **macOS:** `Cmd + Shift + X`
-3. Search for:
-
-```text
-SM Color Theme
-```
-
-4. Click **Install**
-5. Open the Command Palette:
-
-```text
-Ctrl + Shift + P
-```
-
-6. Search for:
-
-```text
-Preferences: Color Theme
-```
-
-7. Select **SM Color Theme**
-
-### Open VSX
-
-You can install the theme from the Open VSX Registry:
-
-**[Install SM Color Theme](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)**
+---
 
 ## 🎨 Activating the Theme
 
 After installation:
 
-1. Open the Command Palette.
-2. Select **Preferences: Color Theme**.
-3. Search for **SM Color Theme**.
+1. Open the Command Palette:
+   - **Windows / Linux:** `Ctrl + Shift + P`
+   - **macOS:** `Cmd + Shift + P`
+2. Type and select **Preferences: Color Theme**.
+3. Choose either **StackMint Theme** or **StackMint Special**.
 4. Press **Enter**.
+
+---
 
 ## 🛠️ Development
 
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_NAME>
+git clone https://github.com/smsohag32/smcolor-theme.git
+cd smcolor-theme
 ```
 
-Install dependencies if required:
-
-```bash
-npm install
-```
-
-Open the project in Visual Studio Code:
+Open in VS Code:
 
 ```bash
 code .
 ```
 
+To build a new `.vsix` package into the `releases/` directory:
+
+```bash
+npx @vscode/vsce package --out releases/
+```
+
+---
+
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome!
 
-If you would like to contribute:
-
 1. Fork this repository.
-2. Create a new branch:
+2. Create a feature branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m "Add my feature"`
+4. Push to branch: `git push origin feature/my-feature`
+5. Open a Pull Request.
 
-```bash
-git checkout -b feature/my-feature
-```
-
-3. Make your changes.
-4. Commit your changes:
-
-```bash
-git commit -m "Add my feature"
-```
-
-5. Push your branch:
-
-```bash
-git push origin feature/my-feature
-```
-
-6. Open a Pull Request.
-
-## 🐛 Issues & Suggestions
-
-If you find a bug or have an idea for improving the theme, please open an issue in the GitHub repository.
-
-When reporting an issue, please include:
-
-- Operating system
-- Editor and version
-- Theme version
-- Screenshot, if applicable
-- Steps to reproduce the issue
+---
 
 ## ⭐ Support
 
-If you enjoy using **SM Color Theme**, consider giving the project a ⭐ on GitHub.
-
-Your feedback and support are greatly appreciated!
-
----
+If you enjoy using **StackMint Theme**, please consider giving the repository a ⭐ on GitHub!
 
 Made with ❤️ for developers.
