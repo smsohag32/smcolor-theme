@@ -1,9 +1,17 @@
-# 🍃 StackMint Theme
+<p align="center">
+  <img src="./images/logo.png" alt="StackMint Theme Logo" width="160" />
+</p>
 
-A clean, vibrant, and modern **Visual Studio Code color theme** designed to provide a comfortable and enjoyable coding experience with balanced syntax highlighting and high contrast visual clarity.
+<h1 align="center">StackMint Theme</h1>
 
-[![Open VSX](https://img.shields.io/open-vsx/v/smcolorthemesohagsheik/stackmint-theme?label=Open%20VSX)](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)
-[![Downloads](https://img.shields.io/open-vsx/dt/smcolorthemesohagsheik/stackmint-theme?label=Downloads)](https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme)
+<p align="center">
+  A clean, vibrant, and modern <b>Visual Studio Code color theme</b> designed to provide a comfortable and enjoyable coding experience with balanced syntax highlighting and high contrast visual clarity.
+</p>
+
+<p align="center">
+  <a href="https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme"><img src="https://img.shields.io/open-vsx/v/smcolorthemesohagsheik/stackmint-theme?label=Open%20VSX" alt="Open VSX" /></a>
+  <a href="https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme"><img src="https://img.shields.io/open-vsx/dt/smcolorthemesohagsheik/stackmint-theme?label=Downloads" alt="Downloads" /></a>
+</p>
 
 ---
 

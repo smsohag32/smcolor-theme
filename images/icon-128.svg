@@ -1,5 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <rect width="128" height="128" rx="16" ry="16" fill="#0B1220" />
-  <circle cx="64" cy="64" r="48" fill="#0A66FF" opacity="0.95" />
-  <text x="64" y="78" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF" text-anchor="middle">SM</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Gradients for Isometric Stack Layers -->
+    <linearGradient id="topGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFAD" />
+      <stop offset="100%" stop-color="#00C885" />
+    </linearGradient>
+
+    <linearGradient id="midGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C885" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#009663" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="botGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#009663" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#006442" stop-opacity="0.85" />
+    </linearGradient>
+    
+    <!-- Soft Glow Filter -->
+    <filter id="mintGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, 10)">
+    <!-- Bottom Isometric Layer -->
+    <polygon points="250,268 400,340 250,412 100,340" fill="url(#botGradient)" />
+
+    <!-- Middle Isometric Layer -->
+    <polygon points="250,195 400,267 250,339 100,267" fill="url(#midGradient)" />
+
+    <!-- Top Isometric Layer -->
+    <polygon points="250,110 400,182 250,254 100,182" fill="url(#topGradient)" filter="url(#mintGlow)" />
+
+    <!-- Top Layer Central Dot/Hole -->
+    <ellipse cx="250" cy="182" rx="14" ry="10" fill="#0A0C1B" />
+
+    <!-- STACKMINT Typography -->
+    <g transform="translate(250, 455)" text-anchor="middle">
+      <text font-family="'Inter', 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="900" font-size="38" letter-spacing="8">
+        <tspan fill="#FFFFFF">STACK</tspan><tspan fill="#00FFAD">MINT</tspan>
+      </text>
+    </g>
+  </g>
 </svg>
