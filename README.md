@@ -9,8 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme"><img src="https://img.shields.io/open-vsx/v/smcolorthemesohagsheik/stackmint-theme?label=Open%20VSX" alt="Open VSX" /></a>
-  <a href="https://open-vsx.org/extension/smcolorthemesohagsheik/smcolor-theme"><img src="https://img.shields.io/open-vsx/dt/smcolorthemesohagsheik/stackmint-theme?label=Downloads" alt="Downloads" /></a>
+  <a href="https://open-vsx.org/extension/smcolorthemesohagsheik/stackmint-theme"><img src="https://img.shields.io/open-vsx/v/smcolorthemesohagsheik/stackmint-theme?label=Open%20VSX" alt="Open VSX" /></a>
+  <a href="https://open-vsx.org/extension/smcolorthemesohagsheik/stackmint-theme"><img src="https://img.shields.io/open-vsx/dt/smcolorthemesohagsheik/stackmint-theme?label=Downloads" alt="Downloads" /></a>
+  <a href="https://github.com/smsohag32/stackmint-theme"><img src="https://img.shields.io/github/stars/smsohag32/stackmint-theme?style=social" alt="GitHub Stars" /></a>
 </p>
 
 ---
@@ -74,8 +75,8 @@ After installation:
 Clone the repository:
 
 ```bash
-git clone https://github.com/smsohag32/smcolor-theme.git
-cd smcolor-theme
+git clone https://github.com/smsohag32/stackmint-theme.git
+cd stackmint-theme
 ```
 
 Open in VS Code:
@@ -106,6 +107,6 @@ Contributions, suggestions, and improvements are welcome!
 
 ## ⭐ Support
 
-If you enjoy using **StackMint Theme**, please consider giving the repository a ⭐ on GitHub!
+If you enjoy using **StackMint Theme**, please consider giving the [repository](https://github.com/smsohag32/stackmint-theme) a ⭐ on GitHub!
 
 Made with ❤️ for developers.
